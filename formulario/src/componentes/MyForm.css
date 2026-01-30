@@ -1,0 +1,13 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+input,
+textare,
+select{
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+}
