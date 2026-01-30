@@ -1,34 +1,21 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import productsData from '../data/db.json'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [products] = useState(productsData.products)
 
   return (
-    <>
-      <div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-      </div>
-    </>
+    <div>
+      <h1>Produtos</h1>
+      <ul>
+        {products.map(p => (
+          <li key={p.id}>
+            <strong>{p.name}</strong> — <span>R$ {p.price}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 
