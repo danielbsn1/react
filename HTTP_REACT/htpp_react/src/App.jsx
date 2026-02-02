@@ -8,6 +8,7 @@ function App() {
   // 2 envio de dados
   const [name,setName] = useState('')
   const [price,setPrice] = useState('')
+ 
   const handleSubmit = async (e) => {
     e.preventDefault()
     const URL = 'http://localhost:3000/products' 
@@ -28,6 +29,7 @@ function App() {
       console.error('Erro ao enviar produto:', error)
     }
   }
+ 
 
 
 
