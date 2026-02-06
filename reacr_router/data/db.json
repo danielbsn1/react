@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "laptop",
+      "price": 50000
+    },
+    {
+      "id": "2",
+      "name": "mobile",
+      "price": 20000
+    },
+    {
+      "id": "3",
+      "name": "tablet",
+      "price": 15000
+    },
+    {
+      "id": "88bf",
+      "name": "'teste",
+      "price": "20"
+    },
+    {
+      "id": "585d",
+      "name": "arroz",
+      "price": "70"
+    }
+  ]
+}

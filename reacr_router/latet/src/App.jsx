@@ -1,14 +1,15 @@
 import './App.css'
 import { Link, Outlet } from 'react-router-dom'
+import Navbar from "./componentes/NavBar";
 
 function App() {
   return (
     <>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/contact">Contato</Link>
-      </nav>
-      <Outlet />
+     <div className='App'>
+      <Navbar />
+      < Outlet />
+
+     </div>
     </>
   )
 }

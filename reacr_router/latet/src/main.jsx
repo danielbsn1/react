@@ -5,7 +5,7 @@ import App from './App.jsx'
 import Contact from "./contact.jsx";
 import Home from "./home.jsx";
 //configurando router
-import {createBrowserRouter, RouterProvider, Route} from "react-router-dom";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 // pagina de error
 import ErrorPage from './ErrorPage.jsx';  
 
