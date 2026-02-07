@@ -8,7 +8,7 @@ const ErrorPage = () => {
             <h1>Ops!</h1>
             <p>Temos um problema</p>
             <p>{error.statusText}</p>
-            <p>{error. error.message}</p>
+            <p>{error.error?.message}</p>
         </div>
     );
 };
