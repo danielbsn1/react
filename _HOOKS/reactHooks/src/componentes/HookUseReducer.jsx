@@ -24,3 +24,5 @@ const HookUseReducer = () => {
     </div>
   );
 };
+
+export default HookUseReducer;
